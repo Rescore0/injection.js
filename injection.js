@@ -1,5 +1,3 @@
-Skidding https://discord.gg/cFsX8kPE
-
 const fs = require('fs');
 const path = require('path');
 const querystring = require('querystring');
